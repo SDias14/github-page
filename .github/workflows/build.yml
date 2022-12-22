@@ -14,7 +14,7 @@ on:
             with:
               node-version: '14.x'
               -name: Build web-app
-              run:
+              run: |
                 npm ci
                 npm run build
                 -name : Depploy to gh-pages
